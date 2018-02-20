@@ -22,6 +22,8 @@ module.exports = function getLoveTrianglesCount(preferences = [ ]) {
         preferences[y] = 0;
         preferences[x] = 0;
         preferences[z] = 0;
+      }else {
+        preferences[y] = 0;
       }
   }
 }
